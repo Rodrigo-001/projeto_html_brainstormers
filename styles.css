@@ -1,5 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    /* text-align: ; */
 }
 h1{
     color: blue;
@@ -12,3 +13,4 @@ h1{
 #id_alternativas {
     color: green;
 }
+
