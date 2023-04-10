@@ -1,16 +1,113 @@
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    /* text-align: ; */
+* {
+    box-sizing: border-box;
 }
-h1{
-    color: blue;
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: tahoma;;
 }
 
-.comprovar {
+.secao{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;    
+}
+
+.fundo-azul{
+    background-color: #1d80c1;
+    color: #fff;
+}
+
+/* TOPO */
+
+.topo{
+    background-color: #d5d6d7;
+    text-align: center;    
+    padding-bottom: 30px;
+    
+}
+
+nav{    
+    margin: 0px auto 20px auto;
+    width: 980px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #d5d6d7;
+}
+
+.link-destaque{
     color: red;
+
 }
 
-#id_alternativas {
-    color: green;
+/* estilo usado em todos os paragrafos da pagina */
+.alinha-paragrafo{
+    margin: 10px auto;
+    width: 900px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+    /* background-color: blue; */
 }
 
+
+img{
+    width: 200px;
+}
+
+.organograma img{
+    margin: 50px auto 0 auto;
+    width: 800px;
+}
+
+header a {
+    font-size: 19px;
+    color: #1d1d1d;  
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+/* TITULOS */
+h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #1c81c0;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* h3{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+} */
+
+.imagem{
+    width: 400px;
+}
+
+/* RODAPÉ */
+
+footer ul{
+    list-style: none;
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+
+footer ul li{
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-size: 16px;    
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+    width: 300px;
+}
